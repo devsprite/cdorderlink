@@ -1,9 +1,11 @@
 <?php
 
-if (!defined('_PS_VERSION_'))
-    exit;
+if (!defined('_PS_VERSION_')) {
+    exit();
+}
 
-class cdorderlink extends Module
+
+class cdOrderLink extends Module
 {
 
     public function __construct()
