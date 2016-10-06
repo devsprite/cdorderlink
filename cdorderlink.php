@@ -24,17 +24,14 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-if (!defined('_PS_VERSION_')) {
-    exit();
-}
-
-
 class CdOrderLink extends Module
 {
 
     public function __construct()
     {
-
+        if (!defined('_PS_VERSION_')) {
+            exit();
+        }
 
         $this->name = "cdorderlink";
         $this->author = "Dominique";
