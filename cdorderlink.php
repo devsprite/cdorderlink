@@ -5,7 +5,7 @@ if (!defined('_PS_VERSION_')) {
 }
 
 
-class cdOrderLink extends Module
+class CdOrderLink extends Module
 {
 
     public function __construct()
@@ -57,5 +57,4 @@ class cdOrderLink extends Module
 
         return $this->display(__FILE__, 'orderlink.tpl');
     }
-
 }
